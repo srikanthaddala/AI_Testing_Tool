@@ -7,8 +7,7 @@ An AI-powered application for generating and executing Linux-focused test cases,
 - **AI-Powered Test Case Generation**: Generate comprehensive test cases from system requirements using OpenAI models
 - **Remote SSH Execution**: Execute test cases on remote Linux systems
 - **Interactive Dashboard**: User-friendly interface for managing requirements, test cases, and results
-- **Detailed Reporting**: Export results in multiple formats (Excel, CSV, PDF)
-- **Security Focus**: Specialized in Linux security and hardening tests
+- **Detailed Reporting**: Export results in Excel format(Excel)
 
 ## Project Structure
 
