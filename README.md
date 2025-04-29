@@ -1,10 +1,10 @@
-# AI-based End-to-End Testing Tool
+# AI-based End-to-End Testing Tool Prototype model/use case
 
 An AI-powered application for generating and executing Linux-focused test cases, with a focus on security and system hardening requirements.
 
 ## Features
 
-- **AI-Powered Test Case Generation**: Generate comprehensive test cases from system requirements using OpenAI models
+- **AI-Powered Test Case Generation prototype **: Generate comprehensive test cases from system requirements using OpenAI models
 - **Remote SSH Execution**: Execute test cases on remote Linux systems
 - **Interactive Dashboard**: User-friendly interface for managing requirements, test cases, and results
 - **Detailed Reporting**: Export results in Excel format(Excel)
