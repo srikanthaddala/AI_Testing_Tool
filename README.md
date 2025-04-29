@@ -1,6 +1,6 @@
 # AI-based End-to-End Testing Tool Prototype model/use case
 
-An AI-powered application for generating and executing Linux-focused test cases, with a focus on security and system hardening requirements.
+An AI-powered application for generating and executing Linux-focused test cases.
 
 ## Features
 
