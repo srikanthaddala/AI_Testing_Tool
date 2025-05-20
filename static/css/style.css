@@ -1,0 +1,270 @@
+/* 
+ * Custom CSS for  AI-based End-to-End Testing Tool
+ * This file contains custom styling for the application UI
+ */
+
+/* Main header styling */
+.main-header {
+    font-size: 2.5em;
+    color: #FF8C00;  /* Dark orange as requested */
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Section headers */
+.section-header {
+    font-size: 1.5em;
+    color: #4682B4;  /* Steel blue */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Info text boxes */
+.info-text {
+    background-color: #F0F8FF;  /* Light blue */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 5px solid #2196F3;
+}
+
+/* Success text boxes */
+.success-text {
+    background-color: #DDFFDD;  /* Light green */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 5px solid #4CAF50;
+}
+
+/* Warning text boxes */
+.warning-text {
+    background-color: #FFFFDD;  /* Light yellow */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 5px solid #FFC107;
+}
+
+/* Error text boxes */
+.error-text {
+    background-color: #FFDDDD;  /* Light red */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 5px solid #F44336;
+}
+
+/* Download buttons */
+.download-button {
+    background-color: #4CAF50;  /* Green */
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #45a049;  /* Darker green */
+    text-decoration: none;
+}
+
+/* Streamlit button customization */
+.stButton button {
+    background-color: #4682B4;  /* Steel blue */
+    color: white;
+    border: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.stButton button:hover {
+    background-color: #3a6d99;  /* Darker blue */
+}
+
+/* Status text colors */
+.green-text {
+    color: green;
+    font-weight: bold;
+}
+
+.red-text {
+    color: red;
+    font-weight: bold;
+}
+
+.yellow-text {
+    color: #B58B00;  /* Amber yellow */
+    font-weight: bold;
+}
+
+/* Logo container styling */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.logo-img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Card-style containers for test cases */
+.test-case-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.test-case-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.test-case-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.test-case-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.test-case-id {
+    color: #666;
+}
+
+/* Table styling improvements */
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #4682B4;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4682B4;
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Command output styling */
+.command-output {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+/* Status badges */
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.85em;
+    display: inline-block;
+}
+
+.status-badge-pass {
+    background-color: #dff2bf;
+    color: #4F8A10;
+}
+
+.status-badge-fail {
+    background-color: #ffbaba;
+    color: #D8000C;
+}
+
+.status-badge-notrun {
+    background-color: #feefb3;
+    color: #9F6000;
+}
+
+/* Dashboard stats */
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.stat-value {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.stat-label {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Progress indicators */
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+}
