@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 
 # Application metadata
-APP_TITLE = "Diconium AI-based End-to-End Testing Tool"
+APP_TITLE = "Srikanth company AI-based End-to-End Testing Tool"
 APP_ICON = "🧪"
 APP_VERSION = "1.0.0"
 
