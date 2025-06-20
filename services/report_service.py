@@ -109,7 +109,7 @@ def generate_pdf_report(test_cases, test_results, requirements):
             # Title
             self.set_font('Arial', 'B', 15)
             self.cell(80)
-            self.cell(30, 10, 'Auto Auto - Test Report', 0, 0, 'C')
+            self.cell(30, 10, 'Auto - Test Report', 0, 0, 'C')
             self.ln(20)
         
         def footer(self):
